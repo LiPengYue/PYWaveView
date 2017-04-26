@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E19B1B1A1EB095FA00DEA9EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B1B191EB095FA00DEA9EE /* main.m */; };
+		E19B1B1D1EB095FA00DEA9EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B1B1C1EB095FA00DEA9EE /* AppDelegate.m */; };
+		E19B1B201EB095FA00DEA9EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B1B1F1EB095FA00DEA9EE /* ViewController.m */; };
+		E19B1B231EB095FA00DEA9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19B1B211EB095FA00DEA9EE /* Main.storyboard */; };
+		E19B1B251EB095FA00DEA9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19B1B241EB095FA00DEA9EE /* Assets.xcassets */; };
+		E19B1B281EB095FA00DEA9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19B1B261EB095FA00DEA9EE /* LaunchScreen.storyboard */; };
+		E19B1B331EB095FA00DEA9EE /* PYWaveViewTempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B1B321EB095FA00DEA9EE /* PYWaveViewTempTests.m */; };
+		E19B1B3E1EB095FA00DEA9EE /* PYWaveViewTempUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B1B3D1EB095FA00DEA9EE /* PYWaveViewTempUITests.m */; };
+		E19B1B511EB0963200DEA9EE /* PYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B1B4F1EB0963200DEA9EE /* PYWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19B1B2F1EB095FA00DEA9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19B1B0D1EB095FA00DEA9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19B1B141EB095FA00DEA9EE;
+			remoteInfo = PYWaveViewTemp;
+		};
+		E19B1B3A1EB095FA00DEA9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19B1B0D1EB095FA00DEA9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19B1B141EB095FA00DEA9EE;
+			remoteInfo = PYWaveViewTemp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E19B1B151EB095FA00DEA9EE /* PYWaveViewTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYWaveViewTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19B1B191EB095FA00DEA9EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E19B1B1B1EB095FA00DEA9EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E19B1B1C1EB095FA00DEA9EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E19B1B1E1EB095FA00DEA9EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E19B1B1F1EB095FA00DEA9EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19B1B221EB095FA00DEA9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19B1B241EB095FA00DEA9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19B1B271EB095FA00DEA9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19B1B291EB095FA00DEA9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19B1B2E1EB095FA00DEA9EE /* PYWaveViewTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYWaveViewTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19B1B321EB095FA00DEA9EE /* PYWaveViewTempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYWaveViewTempTests.m; sourceTree = "<group>"; };
+		E19B1B341EB095FA00DEA9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19B1B391EB095FA00DEA9EE /* PYWaveViewTempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYWaveViewTempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19B1B3D1EB095FA00DEA9EE /* PYWaveViewTempUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYWaveViewTempUITests.m; sourceTree = "<group>"; };
+		E19B1B3F1EB095FA00DEA9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19B1B4E1EB0963200DEA9EE /* PYWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYWaveView.h; sourceTree = "<group>"; };
+		E19B1B4F1EB0963200DEA9EE /* PYWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19B1B121EB095FA00DEA9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B1B2B1EB095FA00DEA9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B1B361EB095FA00DEA9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19B1B0C1EB095FA00DEA9EE = {
+			isa = PBXGroup;
+			children = (
+				E19B1B171EB095FA00DEA9EE /* PYWaveViewTemp */,
+				E19B1B311EB095FA00DEA9EE /* PYWaveViewTempTests */,
+				E19B1B3C1EB095FA00DEA9EE /* PYWaveViewTempUITests */,
+				E19B1B161EB095FA00DEA9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19B1B161EB095FA00DEA9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19B1B151EB095FA00DEA9EE /* PYWaveViewTemp.app */,
+				E19B1B2E1EB095FA00DEA9EE /* PYWaveViewTempTests.xctest */,
+				E19B1B391EB095FA00DEA9EE /* PYWaveViewTempUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19B1B171EB095FA00DEA9EE /* PYWaveViewTemp */ = {
+			isa = PBXGroup;
+			children = (
+				E19B1B4B1EB0963200DEA9EE /* PYWaveView */,
+				E19B1B1B1EB095FA00DEA9EE /* AppDelegate.h */,
+				E19B1B1C1EB095FA00DEA9EE /* AppDelegate.m */,
+				E19B1B1E1EB095FA00DEA9EE /* ViewController.h */,
+				E19B1B1F1EB095FA00DEA9EE /* ViewController.m */,
+				E19B1B211EB095FA00DEA9EE /* Main.storyboard */,
+				E19B1B241EB095FA00DEA9EE /* Assets.xcassets */,
+				E19B1B261EB095FA00DEA9EE /* LaunchScreen.storyboard */,
+				E19B1B291EB095FA00DEA9EE /* Info.plist */,
+				E19B1B181EB095FA00DEA9EE /* Supporting Files */,
+			);
+			path = PYWaveViewTemp;
+			sourceTree = "<group>";
+		};
+		E19B1B181EB095FA00DEA9EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19B1B191EB095FA00DEA9EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E19B1B311EB095FA00DEA9EE /* PYWaveViewTempTests */ = {
+			isa = PBXGroup;
+			children = (
+				E19B1B321EB095FA00DEA9EE /* PYWaveViewTempTests.m */,
+				E19B1B341EB095FA00DEA9EE /* Info.plist */,
+			);
+			path = PYWaveViewTempTests;
+			sourceTree = "<group>";
+		};
+		E19B1B3C1EB095FA00DEA9EE /* PYWaveViewTempUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E19B1B3D1EB095FA00DEA9EE /* PYWaveViewTempUITests.m */,
+				E19B1B3F1EB095FA00DEA9EE /* Info.plist */,
+			);
+			path = PYWaveViewTempUITests;
+			sourceTree = "<group>";
+		};
+		E19B1B4B1EB0963200DEA9EE /* PYWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				E19B1B4E1EB0963200DEA9EE /* PYWaveView.h */,
+				E19B1B4F1EB0963200DEA9EE /* PYWaveView.m */,
+			);
+			path = PYWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19B1B141EB095FA00DEA9EE /* PYWaveViewTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B1B421EB095FA00DEA9EE /* Build configuration list for PBXNativeTarget "PYWaveViewTemp" */;
+			buildPhases = (
+				E19B1B111EB095FA00DEA9EE /* Sources */,
+				E19B1B121EB095FA00DEA9EE /* Frameworks */,
+				E19B1B131EB095FA00DEA9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYWaveViewTemp;
+			productName = PYWaveViewTemp;
+			productReference = E19B1B151EB095FA00DEA9EE /* PYWaveViewTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19B1B2D1EB095FA00DEA9EE /* PYWaveViewTempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B1B451EB095FA00DEA9EE /* Build configuration list for PBXNativeTarget "PYWaveViewTempTests" */;
+			buildPhases = (
+				E19B1B2A1EB095FA00DEA9EE /* Sources */,
+				E19B1B2B1EB095FA00DEA9EE /* Frameworks */,
+				E19B1B2C1EB095FA00DEA9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19B1B301EB095FA00DEA9EE /* PBXTargetDependency */,
+			);
+			name = PYWaveViewTempTests;
+			productName = PYWaveViewTempTests;
+			productReference = E19B1B2E1EB095FA00DEA9EE /* PYWaveViewTempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E19B1B381EB095FA00DEA9EE /* PYWaveViewTempUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B1B481EB095FA00DEA9EE /* Build configuration list for PBXNativeTarget "PYWaveViewTempUITests" */;
+			buildPhases = (
+				E19B1B351EB095FA00DEA9EE /* Sources */,
+				E19B1B361EB095FA00DEA9EE /* Frameworks */,
+				E19B1B371EB095FA00DEA9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19B1B3B1EB095FA00DEA9EE /* PBXTargetDependency */,
+			);
+			name = PYWaveViewTempUITests;
+			productName = PYWaveViewTempUITests;
+			productReference = E19B1B391EB095FA00DEA9EE /* PYWaveViewTempUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19B1B0D1EB095FA00DEA9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liYaoPeng;
+				TargetAttributes = {
+					E19B1B141EB095FA00DEA9EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E19B1B2D1EB095FA00DEA9EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E19B1B141EB095FA00DEA9EE;
+					};
+					E19B1B381EB095FA00DEA9EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E19B1B141EB095FA00DEA9EE;
+					};
+				};
+			};
+			buildConfigurationList = E19B1B101EB095FA00DEA9EE /* Build configuration list for PBXProject "PYWaveViewTemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19B1B0C1EB095FA00DEA9EE;
+			productRefGroup = E19B1B161EB095FA00DEA9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19B1B141EB095FA00DEA9EE /* PYWaveViewTemp */,
+				E19B1B2D1EB095FA00DEA9EE /* PYWaveViewTempTests */,
+				E19B1B381EB095FA00DEA9EE /* PYWaveViewTempUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19B1B131EB095FA00DEA9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B1B281EB095FA00DEA9EE /* LaunchScreen.storyboard in Resources */,
+				E19B1B251EB095FA00DEA9EE /* Assets.xcassets in Resources */,
+				E19B1B231EB095FA00DEA9EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B1B2C1EB095FA00DEA9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B1B371EB095FA00DEA9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19B1B111EB095FA00DEA9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B1B201EB095FA00DEA9EE /* ViewController.m in Sources */,
+				E19B1B1D1EB095FA00DEA9EE /* AppDelegate.m in Sources */,
+				E19B1B511EB0963200DEA9EE /* PYWaveView.m in Sources */,
+				E19B1B1A1EB095FA00DEA9EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B1B2A1EB095FA00DEA9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B1B331EB095FA00DEA9EE /* PYWaveViewTempTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B1B351EB095FA00DEA9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B1B3E1EB095FA00DEA9EE /* PYWaveViewTempUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19B1B301EB095FA00DEA9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19B1B141EB095FA00DEA9EE /* PYWaveViewTemp */;
+			targetProxy = E19B1B2F1EB095FA00DEA9EE /* PBXContainerItemProxy */;
+		};
+		E19B1B3B1EB095FA00DEA9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19B1B141EB095FA00DEA9EE /* PYWaveViewTemp */;
+			targetProxy = E19B1B3A1EB095FA00DEA9EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19B1B211EB095FA00DEA9EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19B1B221EB095FA00DEA9EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19B1B261EB095FA00DEA9EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19B1B271EB095FA00DEA9EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19B1B401EB095FA00DEA9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19B1B411EB095FA00DEA9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19B1B431EB095FA00DEA9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYWaveViewTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxiaobao.PYWaveViewTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E19B1B441EB095FA00DEA9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYWaveViewTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxiaobao.PYWaveViewTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E19B1B461EB095FA00DEA9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYWaveViewTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxiaobao.PYWaveViewTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYWaveViewTemp.app/PYWaveViewTemp";
+			};
+			name = Debug;
+		};
+		E19B1B471EB095FA00DEA9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYWaveViewTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxiaobao.PYWaveViewTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYWaveViewTemp.app/PYWaveViewTemp";
+			};
+			name = Release;
+		};
+		E19B1B491EB095FA00DEA9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYWaveViewTempUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxiaobao.PYWaveViewTempUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYWaveViewTemp;
+			};
+			name = Debug;
+		};
+		E19B1B4A1EB095FA00DEA9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYWaveViewTempUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hongxiaobao.PYWaveViewTempUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYWaveViewTemp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19B1B101EB095FA00DEA9EE /* Build configuration list for PBXProject "PYWaveViewTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B1B401EB095FA00DEA9EE /* Debug */,
+				E19B1B411EB095FA00DEA9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19B1B421EB095FA00DEA9EE /* Build configuration list for PBXNativeTarget "PYWaveViewTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B1B431EB095FA00DEA9EE /* Debug */,
+				E19B1B441EB095FA00DEA9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E19B1B451EB095FA00DEA9EE /* Build configuration list for PBXNativeTarget "PYWaveViewTempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B1B461EB095FA00DEA9EE /* Debug */,
+				E19B1B471EB095FA00DEA9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E19B1B481EB095FA00DEA9EE /* Build configuration list for PBXNativeTarget "PYWaveViewTempUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B1B491EB095FA00DEA9EE /* Debug */,
+				E19B1B4A1EB095FA00DEA9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19B1B0D1EB095FA00DEA9EE /* Project object */;
+}
